@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Guitar-store/static/css/main.74ed311c.css",
+    "main.js": "/Guitar-store/static/js/main.86280707.js",
+    "static/media/guitarist_5.png": "/Guitar-store/static/media/guitarist_5.dbb21ce5c6c7e8a703c0.png",
+    "static/media/Bass_pict.png": "/Guitar-store/static/media/Bass_pict.2938e64c0ba5151a64b1.png",
+    "static/media/Acus_3.png": "/Guitar-store/static/media/Acus_3.7ec246fd1ce510fd6683.png",
+    "static/media/bass_guitarist.png": "/Guitar-store/static/media/bass_guitarist.1f04f64928f09e7eddda.png",
+    "static/media/Bass_1.png": "/Guitar-store/static/media/Bass_1.89ef346393482caee0e9.png",
+    "static/media/guitarist_4.png": "/Guitar-store/static/media/guitarist_4.e789bd4dc64458b66659.png",
+    "static/media/acustic_guitarist_3.png": "/Guitar-store/static/media/acustic_guitarist_3.6f78d6e98dcf47cdfe64.png",
+    "static/media/logo_guitar.png": "/Guitar-store/static/media/logo_guitar.6921922206e6cd822fa6.png",
+    "static/media/Bass_2.png": "/Guitar-store/static/media/Bass_2.d56f70fba0a3d31b8901.png",
+    "static/media/Acus_2.png": "/Guitar-store/static/media/Acus_2.e73792616af6707d8414.png",
+    "static/media/bass_guitarist_2.png": "/Guitar-store/static/media/bass_guitarist_2.3eba4d2c241c84e880e7.png",
+    "static/media/guitarist_1.png": "/Guitar-store/static/media/guitarist_1.2676018c9c2be431e4c5.png",
+    "static/media/Joker_2.png": "/Guitar-store/static/media/Joker_2.e119961ea67e93c4b107.png",
+    "static/media/Joker_1.png": "/Guitar-store/static/media/Joker_1.7715825b74cfb8c1d7ac.png",
+    "static/media/Bass_5.png": "/Guitar-store/static/media/Bass_5.d638114ce6875bb542fb.png",
+    "static/media/vk.png": "/Guitar-store/static/media/vk.3e6910bbd066ddbaaacf.png",
+    "static/media/skype.png": "/Guitar-store/static/media/skype.389af62fa262ed6650f3.png",
+    "static/media/tg.png": "/Guitar-store/static/media/tg.10276e0de337d5a098cd.png",
+    "index.html": "/Guitar-store/index.html",
+    "main.74ed311c.css.map": "/Guitar-store/static/css/main.74ed311c.css.map",
+    "main.86280707.js.map": "/Guitar-store/static/js/main.86280707.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.74ed311c.css",
+    "static/js/main.86280707.js"
+  ]
+}
