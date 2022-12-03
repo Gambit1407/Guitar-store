@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Prompt:wght@300&family=Rubik&display=swap');
+.container { 
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.header {
+    height: 184px;
+    max-height: 179px;
+    width: 100%;
+    background-color: #000000;
+    /* flex-grow: 2; */
+    position: relative;
+}
+
+.navigation {
+    height: 55px;
+    width: 100%;
+    /* flex-grow: 1; */
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 -5px; */
+    background-color: #000000;
+}
+
+.content {
+    width: 100%;
+    /* height: ; */
+    /* background-color: rgb(69, 0, 180); */
+    background-color: #000000;
+    flex-grow: 12;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.content_wrapper {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.nav_item {
+    display: flex;
+    height: 34px;
+    width: 219px;
+    background-color: #88EBFE;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.5);
+    margin: 0 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+}
+
+.nav_item:hover {
+    background-color: #F8CE62;
+}
+
+.devider { 
+    width: 100%;
+    padding: 2px;
+    background-color: #FFFFFF;
+}
+
+.footer {
+    height: 130px;
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content_container {
+    padding: 95px 235px 95px 235px;
+    max-width: 996px;
+}
+
+.main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav_item_guitar {
+    position: relative;
+}
+
+.nav_item_guitar:hover .list {
+    display: block;
+}
+
+.list {
+    position: absolute;
+    min-width: 160px;
+    top: 34px;
+    left: -6px;
+    display: none;
+}
+
+.tg {
+    background-image: url('../../assets/img/tg.png');
+}
+
+.vk {
+    background-image: url('../../assets/img/vk.png');
+}
+
+.skype {
+    background-image: url('../../assets/img/skype.png');
+}
+
+.footer_button {
+    width: 94px;
+    height: 94px;
+    margin-left: 10px;
+}
+
+.logo_guitar {
+    position: absolute;
+    background: url('../../assets/img/logo_guitar.png') 100% 100% no-repeat;
+    background-size: cover;
+    width: 90px;
+    height: 105px;
+}
+
+.logo_text {
+    position: absolute;
+    left: 135px;
+    bottom: 13px;
+}
+.logo_text p  {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+ 
+}
+
+.logo {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    /* line-height: 95px; */
+    left: 107px;
+    color: #F8CE62;
+    width: 419px;
+    /* top: 0px; */
+    position: absolute;
+    margin: 0;
+    font-weight: bold;
+    padding: 0;
+    line-height: 1.2;
+}
+
+.logo_img {
+    position: absolute;
+    width: 793px;
+    right: 0;
+    height: 100%;
+    background: url('../../assets/img/guitarist_1.png') 30% 50% no-repeat;
+}

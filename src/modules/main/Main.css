@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Prompt:wght@300&family=Rubik&display=swap');
+.main_container {
+    /* background-color: rgb(195, 173, 173); */
+    width: 100%;
+    height: 100%;
+}
+
+.card_two,
+.card {
+    width: 100%;
+    /* height: 396px; */
+    background-color: #F8CE62;
+    display: flex;
+    padding: 19px 15px 22px 23px;
+    border-radius: 30px 0px;
+    justify-content: space-between;
+    margin-bottom: 130px;
+}
+
+.card_text {
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+}
+
+.card_text_title {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 71px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card_text_description {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 5px;
+    color: #000000;
+    width: 445px;
+    height: 120px;
+}
+
+.card_photo_therd,
+.card_photo {
+    width: 358px;
+    height: 355px;
+    background-image: url(../../assets/img/guitarist_5.png);
+    background-size: cover;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+    margin-left: 128px;
+}
+
+.card_photo_left {
+    width: 508px;
+    height: 355px;
+    background: #88EBFE;
+    background-image: url(../../assets/img/bass_guitarist_2.png);
+    background-size: cover;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+    /* margin-right: 128px; */
+}
+
+.card_photo_therd {
+    background-image: url(../../assets/img/bass_guitarist_2.png);
+}
+
+.card_two {
+    background: #88EBFE;
+}

@@ -1,0 +1,32 @@
+.guitar-container {
+    width: 800px;
+    height: 100%;
+    background-color: #000000;;
+    border-radius: 20px;
+}
+
+.guitar-photo-card {
+    width: 100%;
+    height: 442px;
+    border: 5px solid #000000;
+    border-radius: 20px;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.guitar-name-card {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 49px;
+    color: #F8CE62;
+    margin: 0;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 14px;
+}
+
+.guitar-description span {
+    color: white !important;
+}

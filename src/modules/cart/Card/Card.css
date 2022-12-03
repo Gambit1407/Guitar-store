@@ -1,0 +1,71 @@
+.product-card {
+    width: 408px;
+    height: 148px;
+    display: flex;
+    border: 3px solid #000000;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin-bottom: 36px;
+}
+
+.product-card-photo {
+    width: 222px;
+    height: 100%;
+    background-size: cover;
+    border: 3px solid #000000;
+    box-shadow: inset 0px 0px 40px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.product-price {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 50px;
+
+    /* identical to box height, or 250% */
+
+    color: #000000;
+}
+
+.product-card-description {
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.product-counter {
+    display: flex;
+    align-items: center;
+}
+
+.button-count {
+    border: 3px solid #000000;
+    border-radius: 10px;
+    padding: 3px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.counter {
+    margin-left: 4px;
+    margin-right: 4px;
+    padding: 4px 10px 4px 10px;
+}
+
+.button-remove {
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+.products {
+    margin-top: 40px;
+}

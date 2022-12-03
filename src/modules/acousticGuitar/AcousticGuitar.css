@@ -1,0 +1,97 @@
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-tile {
+    width: 954px;
+    /* height: 396px; */
+    background-color: #F8CE62;
+    display: flex;
+    padding: 19px 15px 22px 23px;
+    border-radius: 30px 0px;
+    justify-content: space-between;
+    margin-bottom: 130px;
+}
+
+.card-title-bass {
+    width: 451px;
+    height: 245px;
+    background-image: url(../../assets/img/acustic_guitarist_3.png);
+    background-size: cover;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+}
+
+.card_text-bass {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 71px;
+    width: 450px;
+    color: #000000;
+}
+
+.mini-card {
+    display: flex;
+    flex-direction: column;
+    width: 372px;
+    background: #F8CE62;
+    height: 479px;
+    border: 5px solid #000000;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.guitar-img {
+    width: 100%;
+    height: 265px;
+}
+
+.row-guitars {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.button_buy_wrapp {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.button_buy {
+    width: 60%;
+}
+
+.guitar-description {
+    padding: 23px 30px;
+}
+
+.guitar-description span {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.price {
+    margin-bottom: 8px;
+}
+
+.condition {
+    margin-bottom: 8px;
+}
+
+.acus_2 {
+    background-image: url(../../assets/img/Acus_2.png);
+}
+
+.acus_3 {
+    background-image: url(../../assets/img/Acus_3.png);
+}
